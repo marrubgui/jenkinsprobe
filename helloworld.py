@@ -2,6 +2,6 @@
 print("Hello world")
 
 def hola():
-    print ("Hola mundo")
+    print ("Hola mundo prepe")
 
 hola()
