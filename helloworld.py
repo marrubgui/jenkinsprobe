@@ -10,5 +10,3 @@ def jeje():
     print ("jojojosdsds")
 
 jeje()
-
-def fff
