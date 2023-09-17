@@ -10,3 +10,7 @@ def jeje():
     print ("jojojosdsds")
 
 jeje()
+
+suma = 1 + 2
+
+print(suma)
