@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 python3 -m venv .venv
-                source .venv/bin/activate
+                source
 		ls
                 echo "doing build stuffasdadasd.."
                 '''
