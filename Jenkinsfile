@@ -12,7 +12,10 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''#!/bin/bash
-                source
+                python3 -m venv .venv
+                source .venv/bin/activate
+                cd myapp
+                pip3 install -r requirements.txt
                 echo "doing build stuffasdadasd.."
                 '''
             }
