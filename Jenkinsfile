@@ -23,7 +23,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''
+                sh '''#!/bin/bash
+                source .venv/bin/activate
                 echo "doing test stuffjhjjujj.."
                 '''
             }
