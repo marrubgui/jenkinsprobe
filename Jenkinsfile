@@ -15,7 +15,7 @@ pipeline {
                 python3 -m venv .venv
                 source .venv/bin/activate
                 cd myapp
-                pip3 install -r requirements.txt
+                pip3 install -r requirements.txt --use-pep517
                 echo "doing build stuffasdadasd.."
                 '''
             }
