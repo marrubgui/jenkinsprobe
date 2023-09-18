@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                bash
                 echo "doing build stuffasdadasd.."
                 '''
             }
