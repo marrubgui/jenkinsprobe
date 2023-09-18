@@ -12,8 +12,6 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''#!/bin/bash
-                python3 -m venv .venv
-                source .venv/bin/activate
                 cd myapp
                 pip3 install -r requirements.txt --use-pep517
                 echo "doing build stuffasdadasd.."
@@ -23,8 +21,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''#!/bin/bash
-                source .venv/bin/activate
+                sh '''
                 echo "doing test stuffjhjjujj.."
                 '''
             }
