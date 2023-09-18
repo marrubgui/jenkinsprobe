@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
-                sh '''
+                bash
                 python3 -m venv .venv
                 source
 		ls
