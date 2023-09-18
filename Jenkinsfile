@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
-                /bin/bash
+                sh '''
                 echo "doing build stuffasdadasd.."
                 '''
             }
