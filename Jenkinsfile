@@ -11,9 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
-                sh '''
-                bash
-                source
+                sh '''#!/bin/bash
                 echo "doing build stuffasdadasd.."
                 '''
             }
