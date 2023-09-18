@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''#!/bin/bash
+                source
                 echo "doing build stuffasdadasd.."
                 '''
             }
