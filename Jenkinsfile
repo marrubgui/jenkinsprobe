@@ -13,6 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 bash
+                source
                 echo "doing build stuffasdadasd.."
                 '''
             }
