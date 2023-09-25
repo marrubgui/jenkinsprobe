@@ -18,7 +18,7 @@ print(suma)
 with open('text.txt','w') as file:
     file.write("I am learning python!\n")
     file.write("I am really enjoying\n")
-    file.write("Hola a todos")
+    file.write("Hola a todos pepepe")
 
 with open('text.txt','r') as file:
     print(file.read())
